@@ -1,0 +1,3 @@
+Aditya Sharma
+400189221
+Design Decisions/Assumptions: The overall project hierarchy is strict and enforcing. I can see the benefits to such a structure.  When creating a "package", it becomes a module and each module gets its own version of a "readme.md" via "module-info.java". I find this is useful to provide information on the particular module. Also, each module is named uniquely and contains different files that follow a strict OOP format. This ensures that there exists a sense of organization and relationship even within the files. This is good practice because when building large scale applications (Mobile Apps), particular features of the mobile app can be isolated into packages/modules.

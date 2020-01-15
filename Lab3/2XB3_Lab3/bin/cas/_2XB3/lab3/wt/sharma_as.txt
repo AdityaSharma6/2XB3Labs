@@ -1,0 +1,10 @@
+Aditya Sharma
+400189221
+Design Decisions/Assumptions:
+
+I've wondered why methods always have the word "public" before it, now it makes a lot more sense.
+It defines the boundary of use between programs. For example: If it has the word "public", it 
+means that other programs/classes defined in other files can use it. If it doesn't, then they can't.
+
+I think that the design decisions were well explained and no assumptions were made. The lab was
+clear and straight forward.

@@ -1,0 +1,9 @@
+Essentially, the recursive fibonacci funciton is computing the fibonacci values of the the first
+number before it and the second number before it by calling the recursive function on those values.
+
+It keeps pushing the value of "n" down to the base case values where "n" is equal to either 0 or 1.
+Essentially, when we draw it out, it will begin to resemble a tree and we will see tons of
+repeated computations. It is these repeated computations that slows down the computer and increases
+the run time. This is why the recursive fibonacci function is so inefficient. 
+
+When we run fibonacci(8), it computes fibonacci(1) 8 times.
